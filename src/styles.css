@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sansita+Swashed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #24a0ed;
+}
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.auth {
+  text-align: right;
+  margin-top: 20%;
+  font-size: 0.8rem;
+}
+.area {
+  text-align: center;
+  background-color: #fff;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  padding: 5%;
+  height: 49vh;
+  margin-left: 10%;
+  margin-top: 10%;
+  position: relative;
+  flex-direction: column;
+
+  align-items: center;
+}
+.card-body {
+  margin: auto;
+}
+
+.text {
+  color: gray;
+
+  font-family: "Dancing Script", cursive;
+
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.auth {
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Chilanka", cursive;
+}
+.twitter {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  cursor: pointer;
+  color: #24a0ed;
+
+  transition: all 0.8s ease-in-out 0s;
+}
+.twitter:hover {
+  transform: rotate(360deg);
+  transition: all 0.8s ease-in-out 0s;
+}
+.whp {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  cursor: pointer;
+  color: green;
+  transition: all 0.8s ease-in-out 0s;
+}
+.whp:hover {
+  transform: rotate(360deg);
+  transition: all 0.8s ease-in-out 0s;
+}
+
+Button {
+  text-transform: capitalize;
+  font-family: "Sansita Swashed", cursive;
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
+.MuiButton-root {
+  text-transform: none;
+  font-family: "Sansita Swashed", cursive;
+  letter-spacing: 2px;
+}
+.MuiButton-label {
+  font-family: "Sansita Swashed", cursive;
+  letter-spacing: 2px;
+}
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  .h2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 28px;
+  }
+  .twitter {
+    transition: all 0.8s ease-in-out 0s;
+  }
+  .twitter:hover {
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in-out 0s;
+  }
+  .whp {
+    transition: all 0.8s ease-in-out 0s;
+  }
+  .whp:hover {
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in-out 0s;
+  }
+  .h2 {
+    font-size: 15px;
+  }
+}
